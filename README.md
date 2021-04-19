@@ -26,8 +26,8 @@ To start story, open d1m1try_pt1 from the story folder. Everything will be descr
 <h1>Technical background</h1>
 <p>The d1m1try project uses a Python 3 based framework to emulate a connection between a diagnostic tool and a working vehicle ECU. This virtualization focuses only the diagnostic and the debug layer, and is the simplified version of the real world ones (including ISO 14229 UDS standard or Universal Measure and Calibration Protocol). </p>
 <p>The basis of this is simulation is the base_ECU.py which can be found in the ECU_models package. It is supposed to be implemented as a robust ECU from security point of view and the other modules have the vulnerabilities deliberately placed inside them. Basically, anybody can create other models with another vulnerabilities or add more functionality to the ECU. </p>
-<p>To maximize accessibility to users not familiar with additional python packages, quite a basic authentication was implemented without using any approved cryptogaphical solution. Since the attackers goal is not to break the cryptography but to break the implementation, in my oppinion, this does not effect the user experience very much.</p>
-<p>I tried to document the code thoroughly to assist in the development of any derivative work. If you got stucked, feel free to contact me and I will do my best to reply.</p>
+<p>To maximize accessibility to users not familiar with additional python packages, quite a basic authentication was implemented without using any approved cryptogaphical solution. Since the attackers goal is the most usually not to break the cryptography but to break the implementation anyways, in my oppinion, this does not effect the user experience very much.</p>
+<p>I tried to document the code thoroughly to assist in the development of any derivative work. If you got stucked, feel free to contact me and I will do my best to reply. This is my first open source project, therefore everything is new for me and in case of any issue, I would like to ask for your patience.</p>
 <h1>Contact</h1>
 János Kovács
 https://www.linkedin.com/in/janoskovacs89/
