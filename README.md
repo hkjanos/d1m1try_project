@@ -10,12 +10,13 @@ An automotive capture the flag game for educational purposes.
 <br>
 <h2>Many thanks for the people contributed in these project:</h2>
 <p>
-my family for supporting me, my 2-yo daughter, Rozi for providing me some spare time by sleeping properly,<br>
-my unborn daughter, Lujzi for inspirating me for work for the being worried of not having time for some time after she is born for such things like creating CTF games,<br>
-my wife for being patient while I coded the stages and composed the story,<br>
+my family, my friends and others for supporting me: <br>
+my 2-yo daughter, Rozi for providing me some spare time by sleeping properly,<br>
+my unborn daughter, Lujzi for inspirating me for work for the making me worried of not having time for some time after she is born for such things like creating CTF games,<br>
+my beloved wife, Andi for being patient while I coded the stages and composed the story,<br>
 Paul Rebar for providing the cover art picturing Dimitri for free,<br>
 the artists providing pictures under Creative Commons license,<br>
-and my friends and colleagues who tested the stages and provided ideas for them.</p>
+and my friends who tested the stages and provided ideas for them.</p>
 
 <h2>System Requirement</h2>
 <p>To play with d1m1try, a configured Python 3 is necessary. Your system needs to recognize 'python' as a command to start Python bash. <a href="https://realpython.com/installing-python/">Python 3 Setup Guide for Windows</a></p>
