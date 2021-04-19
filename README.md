@@ -18,8 +18,9 @@ the artists providing pictures under Creative Commons license,<br>
 and my friends and colleagues who tested the stages and provided ideas for them.</p>
 
 <h2>System Requirement</h2>
-To play with d1m1try, a configured Python 3 is necessary.
-To play slideshows containing the challenges and the background story of them, Microsoft Power Point is preferred, since I cannot tell how other slideshow programs will affects the format of the slides like positioning of objects and colors.
+<p>To play with d1m1try, a configured Python 3 is necessary. Your system needs to recognize 'python' as a command to start Python bash. <a href="https://realpython.com/installing-python/">Python 3 Setup Guide for Windows</a></p>
+<p>Also, the .bat files use MS DOS syntax. If you use another OS and you are familiar with the MS DOS syntax, a port to your current shell is necessary.</p>
+<p>To play slideshows containing the challenges and the background story of them, Microsoft Power Point is preferred, since I cannot tell how other slideshow programs will affects the format of the slides like positioning of objects and colors.</p>
 <h2>How to play</h2>
 To start story, open d1m1try_pt1 from the story folder. Everything will be described there. No programming skills are necessary for the completion of the game.
 <h1>Technical background</h1>
