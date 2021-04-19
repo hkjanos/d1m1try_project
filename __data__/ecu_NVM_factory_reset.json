@@ -1,0 +1,14 @@
+{
+  "enableAutoPilot":    [1, 2, 1.0],
+  "vehicleLights":      [1, 2, 1.0],
+  "enableXCPRead" :     [1, 2, 1.0],
+  "enableXCPWrite" :    [1, 2, 1.0],
+  "VIN":                [1, 2, 12311342352342342342.0],
+  "odoMeter":           [1, 2, 128456.0],
+  "ignitionCycles":     [1, 2, 2688.0],
+  "userID":             [2, 3, 143922001.0],
+  "password":           [2, 3, 12345678.0],
+  "destCoordLat":       [1, 2, 47.497913],
+  "destCoordLong":      [1, 2, 52.040236],
+  "dataBuffer0":        [1, 1, 231241241323123.0]
+}

@@ -1,0 +1,14 @@
+{
+  "enableAutoPilot":    [1, 2, 1.0],
+  "vehicleLights":      [1, 2, 1.0],
+  "enableXCPRead" :     [1, 2, 1.0],
+  "enableXCPWrite" :    [1, 2, 1.0],
+  "VIN":                [1, 2, 12311342352342342342.0],
+  "odoMeter":           [1, 2, 128456.0],
+  "ignitionCycles":     [1, 2, 2688.0],
+  "userID":             [2, 3, "el_presidente"],
+  "password":           [2, 3, "6f8632b25e0c58e1ed782e9a7beb3522ae10b0e0b3bb1543382147992f09173e"],
+  "homeCoordLat":       [2, 2, 55.7519810150306],
+  "homeCoordLong":      [2, 2, 37.61756377146679],
+  "dataBuffer0":        [1, 1, 231241241323123.0]
+}
