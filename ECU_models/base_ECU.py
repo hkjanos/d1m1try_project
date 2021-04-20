@@ -3,7 +3,7 @@ import time
 import os
 import _thread
 
-from bk_utils import json_parser, ecu_constants as cons
+from bk_utils import json_parser, ecu_constants as cons, formatter
 
 
 class ECU_Sim():
@@ -16,8 +16,9 @@ class ECU_Sim():
     }
 
     def __init__(self, ecu_nvm_path, ecu_memory_map_path):
+        screen_handler = formatter.Format()
         # Clearing screen to improve user experience.
-        os.system('cls')
+        screen_handler.clear_screen()
         # Coloring the screen to oscilloscope green, because that is funky. :)
         os.system('color 02')
 
