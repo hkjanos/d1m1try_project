@@ -1,3 +1,5 @@
+import os
+
 class Format:
     # This class is for formatting output - currently for the test environment.
     # Some formats are currently not used, but may be used later.
@@ -19,3 +21,11 @@ class Format:
 
     def bold(self, input):
         print(f"{self.BOLD}{str(input)}{self.ENDC}")
+
+    def clear_screen(self):
+        # for windows:
+        if os.name == 'nt':
+            os.system('cls')
+
+        else:
+            os.system('clear')
