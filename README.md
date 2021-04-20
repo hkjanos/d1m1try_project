@@ -22,8 +22,10 @@ and my friends who tested the stages and provided ideas for them.</p>
 <p>To play with d1m1try, a configured Python 3 is necessary. Your system needs to recognize 'python' as a command to start Python bash. <a href="https://realpython.com/installing-python/">Python 3 Setup Guide for Windows</a></p>
 <p>Also, the .bat files use MS DOS syntax. If you use another OS and you are familiar with the MS DOS syntax, a port to your current shell is necessary.</p>
 <p>To play slideshows containing the challenges and the background story of them, Microsoft Power Point is preferred, since I cannot tell how other slideshow programs will affects the format of the slides like positioning of objects and colors.</p>
+
 <h2>How to play</h2>
-To start story, open d1m1try_pt1 from the story folder. Everything will be described there. No programming skills are necessary for the completion of the game.
+To start story, open d1m1try_pt1 from the story folder. Everything will be described there. No programming skills are necessary for the completion of the game.<br>
+For maximizing user experience, avoid peeking into source code to reveal the solution for the challenges. Python is an easy to read programming language and the solution for the challenges can be learned from the source code.
 <h1>Technical background</h1>
 <p>The d1m1try project uses a Python 3 based framework to emulate a connection between a diagnostic tool and a working vehicle ECU. This virtualization focuses only the diagnostic and the debug layer, and is the simplified version of the real world ones (including ISO 14229 UDS standard or Universal Measure and Calibration Protocol). </p>
 <p>The basis of this is simulation is the base_ECU.py which can be found in the ECU_models package. It is supposed to be implemented as a robust ECU from security point of view and the other modules have the vulnerabilities deliberately placed inside them. Basically, anybody can create other models with another vulnerabilities or add more functionality to the ECU. </p>
