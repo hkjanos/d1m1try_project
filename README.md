@@ -24,7 +24,7 @@ and my friends who tested the stages and provided ideas for them.</p>
 <p>To play slideshows containing the challenges and the background story of them, Microsoft Power Point is preferred, since I cannot tell how other slideshow programs will affects the format of the slides like positioning of objects and colors.</p>
 
 <h2>How to play</h2>
-To start story, open d1m1try_pt1 from the story folder. Everything will be described there. No programming skills are necessary for the completion of the game.<br>
+To start story, open d1m1try_pt1.pptx from the story folder. Everything will be described there. No programming skills are necessary for the completion of the game.<br>
 For maximizing user experience, avoid peeking into source code to reveal the solution for the challenges. Python is an easy to read programming language and the solution for the challenges can be learned from the source code.
 <h1>Technical background</h1>
 <p>The d1m1try project uses a Python 3 based framework to emulate a connection between a diagnostic tool and a working vehicle ECU. This virtualization focuses only the diagnostic and the debug layer, and is the simplified version of the real world ones (including ISO 14229 UDS standard or Universal Measure and Calibration Protocol). </p>
