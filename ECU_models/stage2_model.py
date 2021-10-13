@@ -81,11 +81,11 @@ class ECU_Sim_Stage2(ECU_Sim):
                     elif command == 'checkmaneuver':
                         self.checkManeuverStatus()
                     elif command == "exit":
-                        os.system('cls')
+                        self.screen_handler.clear_screen()
                         os.system('color 08')
                         break
                     elif command == "cls":
-                        os.system('cls')
+                        self.screen_handler.clear_screen()
                     elif command == "readmemorymap":
                         self.readMemoryMap()
                     elif command == "params2read":
@@ -101,7 +101,7 @@ class ECU_Sim_Stage2(ECU_Sim):
                     elif command == "diagread":
                         self.diagRead(rx_data[1])
                     elif command == "diagwrite":
-                        self.diagWrite(rx_data[1], int(rx_data[2]))
+                        self.diagWrite(rx_data[1], float(rx_data[2]))
                     elif command == "xcpcon":
                         self.xcpInit()
                     elif command == "xcpdiscon":
@@ -109,11 +109,11 @@ class ECU_Sim_Stage2(ECU_Sim):
                     elif command == "xcpread":
                         print(self.xcpRead(rx_data[1]))
                     elif command == "xcpwrite":
-                        self.xcpWrite(rx_data[1], rx_data[2])
+                        self.xcpWrite(rx_data[1], int(rx_data[2]))
                     elif command == "xcp_rd_address":
                         print(self.xcpReadByAddress(rx_data[1]))
                     elif command == "xcp_wr_address":
-                        print(self.xcpWriteByAddress(rx_data[1], rx_data[2]))
+                        print(self.xcpWriteByAddress(rx_data[1], int(rx_data[2])))
                     else:
                         print("Command does not exist.")
                 except:
@@ -200,7 +200,7 @@ class ECU_Sim_Stage2(ECU_Sim):
                 if int(address) > 0xfff0:
                     self.runtimeError = True
                     self.ecuReset()
-                    flag.flag(b'Debug DoS READ')
+                    flag.flag(b'Debug DoS WRITE')
                     return ''
                 for key in self.memoryMap:
                     if self.memoryMap[key][cons.VAR_ADDRESS()] == float(address) and \
