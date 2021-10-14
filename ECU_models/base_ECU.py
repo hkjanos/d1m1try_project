@@ -16,9 +16,9 @@ class ECU_Sim():
     }
 
     def __init__(self, ecu_nvm_path, ecu_memory_map_path):
-        screen_handler = formatter.Format()
+        self.screen_handler = formatter.Format()
         # Clearing screen to improve user experience.
-        screen_handler.clear_screen()
+        self.screen_handler.clear_screen()
         # Coloring the screen to oscilloscope green, because that is funky. :)
         os.system('color 02')
 
@@ -176,11 +176,11 @@ class ECU_Sim():
                     elif command == 'checkmaneuver':
                         self.checkManeuverStatus()
                     elif command == "exit":
-                        os.system('cls')
+                        self.screen_handler.clear_screen()
                         os.system('color 08')
                         break
                     elif command == "cls":
-                        os.system('cls')
+                        self.screen_handler.clear_screen()
                     elif command == "readmemorymap":
                         self.readMemoryMap()
                     elif command == "params2read":
