@@ -29,3 +29,9 @@ class Format:
 
         else:
             os.system('clear')
+
+    def color_screen(self, onoff: bool):
+        if onoff:
+            os.system('color 02' if os.name == 'nt' else 'setterm --foreground green')
+        else:
+            os.system('color 08' if os.name == 'nt' else 'setterm --foreground white')

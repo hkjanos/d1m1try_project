@@ -20,7 +20,7 @@ class ECU_Sim():
         # Clearing screen to improve user experience.
         self.screen_handler.clear_screen()
         # Coloring the screen to oscilloscope green, because that is funky. :)
-        os.system('color 02')
+        self.screen_handler.color_screen(True)
 
         # This dictionary contains the most vital information about the ECU.
         # powerOn means that the ECU is on or off.
@@ -177,7 +177,7 @@ class ECU_Sim():
                         self.checkManeuverStatus()
                     elif command == "exit":
                         self.screen_handler.clear_screen()
-                        os.system('color 08')
+                        self.screen_handler.color_screen(False)
                         break
                     elif command == "cls":
                         self.screen_handler.clear_screen()

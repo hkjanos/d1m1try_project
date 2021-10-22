@@ -100,7 +100,7 @@ class ECU_Sim_Stage4(ECU_Sim):
                         self.checkManeuverStatus()
                     elif command == "exit":
                         self.screen_handler.clear_screen()
-                        os.system('color 08')
+                        self.screen_handler.color_screen(False)
                         break
                     elif command == "cls":
                         self.screen_handler.clear_screen()
