@@ -120,11 +120,11 @@ class ECU_Sim_Stage6(ECU_Sim):
                     elif command == 'checkmaneuver':
                         self.checkManeuverStatus()
                     elif command == "exit":
-                        os.system('cls')
-                        os.system('color 08')
+                        self.screen_handler.clear_screen()
+                        self.screen_handler.color_screen(False)
                         break
                     elif command == "cls":
-                        os.system('cls')
+                        self.screen_handler.clear_screen()
                     elif command == "readmemorymap":
                         self.readMemoryMap()
                     elif command == "diagjobs2read":

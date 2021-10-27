@@ -1,6 +1,6 @@
 import os
 
-os.system('cls')
+os.system('cls' if os.name is 'nt' else 'clear')
 print("Hi there, it's been a while.\n"
       "We need your help again.\n"
       "This is a top secret message so the rest of the message \n"
