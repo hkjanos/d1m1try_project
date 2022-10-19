@@ -12,7 +12,7 @@ An automotive capture the flag game for educational purposes.
 <p>
 my family, my friends and others for supporting me: <br>
 my 2-yo daughter, Rozi for providing me some spare time by sleeping properly,<br>
-my unborn daughter, Lujzi for inspirating me for work for the making me worried of not having time for some time after she is born for such things like creating CTF games,<br>
+my unborn daughter, Lujzi for inspiring me to work by making me worried about not having time for some time after she is born for such things like creating CTF games,<br>
 my beloved wife, Andi for being patient while I coded the stages and composed the story,<br>
 Paul Rebar for providing the cover art picturing Dimitri for free,<br>
 the artists providing pictures under Creative Commons license,<br>
