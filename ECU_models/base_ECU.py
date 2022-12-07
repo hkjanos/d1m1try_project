@@ -239,7 +239,7 @@ class ECU_Sim():
     def enumDiagValuesToWrite(self):
         # This function returns the Diagnostic Parameter set available
         # to write at the current privilege level.
-        print("Available Diagnostic Jobs To Write \nin Current Privilege Level:\n")
+        print("Available Diagnostic Parameters To Write \nin Current Privilege Level:\n")
         if self.ecu_state_dict['powerOn']:
             for key in self.diagMatrix:
                 if self.memoryMap['privilegeLevel'][cons.VAR_VALUE()] >= \
